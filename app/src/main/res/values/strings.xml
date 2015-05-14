@@ -3,4 +3,9 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <plurals name="selected_bookmarks">
+        <item quantity="one">One selected bookmark</item>
+        <item quantity="other">%d bookmarks selected</item>
+    </plurals>
 </resources>
