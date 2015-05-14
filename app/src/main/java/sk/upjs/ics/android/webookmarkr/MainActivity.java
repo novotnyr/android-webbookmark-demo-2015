@@ -12,7 +12,8 @@ public class MainActivity extends ActionBarActivity {
 
         getFragmentManager()
                 .beginTransaction()
-                .add(android.R.id.content, new BookmarkListFragment());
+                .add(android.R.id.content, new BookmarkListFragment())
+                .commit();
     }
 
 }
